@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+
+<body>
+    <section>
+        <div class="pagesCollection">
+            <a href="./Home.html">Home</a>
+            <a href="./About.html">About</a>
+            <a href="./contact.html" class="pages">Contact</a>
+        </div>
+
+        <div class="headerLogo">
+            <img src="./picture/logo2.jpeg" alt="" width="250px" >
+        </div>
+
+    </section>
+
+
+    <div class="header">
+        <div class="subheader">
+            <h1>Contact Us </h1>
+            <p>We will be happy with your Contact, Send email for us</p>
+        </div>
+    </div>
+
+        <!--email message-->
+    <div style="display:flex;justify-content: space-evenly; margin-bottom: 100px; ">
+        <div>
+            <form action="mailto:PetPlanet@gmail.com" method="post">
+                <input type="text" name="name" placeholder="Name" class="text_box">
+                <input type="email" name="email" placeholder="Email" class="text_box">
+                <textarea  name="name" placeholder="Message" class="text_box"></textarea>
+                <input type="submit" name="button" value="Send" class="button">
+                
+            </form>
+        </div>
+
+        <!--address info-->
+        <div style="background-color: rgb(255, 255, 255); ">
+          <h2>Our Address</h2>
+          <address style="line-height: 30px;">
+            St Thomas’ Street.Chester, UK. <br>
+            +44 1854 122576 <br>
+            <a href="./Home.html" style="text-decoration: none; color: black;">PetPlanet@org.stor.com</a>
+          </address>
+        </div>
+    </div>
+
+      <!--Q-->
+     <div style="width:100%;display: flex; justify-content: center;align-items: center;margin-top:60px;">
+        <div>
+            <h1 style="text-align: center;">FAQs</h1>
+            <p style="text-align:center ; line-height: 1.2;"> Below you will find answers to the questions we get asked
+            <br> the most about our store's products </p>
+
+         <!--checkboxes-->
+            <div class="checkbox" >
+              <label for="box1"> 1.Can the product be exchanged after purchasing it?</label>
+              <input type="checkbox" id="box1" name="box1" class="checksq">
+            </div>
+   
+            <div class="checkbox">
+              <label for="box2"> 2.Can I get a discount when buying more than one product?</label>
+              <input type="checkbox" id="box2" name="box2" class="checksq" >
+            </div>
+  
+
+            <div class="checkbox">
+               <label for="box3">3.What is the cost of delivery of the products?</label> 
+               <input type="checkbox" id="box3" name="box3" class="checksq">
+            </div>
+
+            <div class="checkbox">
+               <label for="box3"> 4.How long does product take to reach the buyer?</label>
+               <input type="checkbox" id="box3" name="box3" class="checksq">
+            </div>
+        </div>
+    </div>
+</body>
+
+<div class="footer">
+<footer>copyright &copy;2022 Pet Planet</footer>
+</div>
+
+</html>

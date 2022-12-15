@@ -1,0 +1,133 @@
+
+
+.header{
+    display: flex; 
+    justify-content: center;
+}
+.subheader{
+    width: 50%;
+    text-align: center;
+     margin: 30px;
+}
+.pagesCollection{
+    float: right; 
+    margin-top: 40px
+}
+.pages{
+    border-bottom:2px solid rgb(255, 255, 255);
+      padding-bottom:3px;
+}
+.headerLogo{
+    float: left; 
+    margin-top: 280px;
+}
+.productParg{
+   line-height: 1.6;
+}
+.product_name{
+    text-align:center;
+}
+.prise{
+    color: red;
+}
+.founders_img{
+    width: 280px;
+    height: 280px;
+    float: left;  
+    margin-right: 20px;
+   
+    
+}
+
+ .name{
+    margin-bottom: -10px;
+    color:blue;
+}
+ .massion{
+    color: rgb(119, 119, 168);
+ }
+ 
+.pargspace{
+    line-height: 30px;
+}
+.image2{
+    margin-left: 30px;
+}
+.text_box{
+display: block;
+width: 300px;
+border: hidden;
+padding: 20px;
+border-bottom: 0.5px solid rgb(233, 229, 229);
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    float: right;
+    background-color: rgb(212, 17, 17);
+    text-align: center;
+    font-size: larger;
+    margin-top: 50px;
+    color: rgb(245, 245, 250);
+    border-radius: 3px;
+    border:hidden;
+}
+
+
+section{
+    width: 100%;
+    height:400px;
+background-image:url(./picture/mainphoto.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+}
+
+.checkbox{
+    border-style: groove;
+    display:block;
+    padding: 15px;
+    color: grey;
+    margin-bottom: 30px;
+    
+}
+.checksq{
+    float:right;
+}
+.footer{
+    font-size: small;
+    color: rgb(104, 103, 103);
+    text-align: center;
+    margin: 70px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-size: larger;
+}
+.image{
+    width: 270px;
+    height: 270px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+
+    
+   
+    
+}
+table{
+  
+    width: 100%;
+    margin: 10px;
+ 
+}
+.historypar{
+    margin:40px ;
+    padding:20px;
+    line-height:30px;
+    margin-top: -13px;
+    line-height: 30px;
+   
+}
